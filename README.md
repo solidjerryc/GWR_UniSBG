@@ -12,7 +12,7 @@
 
     jupyter nbconvert GWR_notebook.ipynb --to slides --post serve  --SlidesExporter.reveal_scroll=True
 
-Environments:
+### Environments:
 
 * Python 3.7
 * pandas==1.0.3
@@ -24,3 +24,22 @@ Environments:
 * pysal==2.2.0
 * statmodels==0.10.1
 * mgwr==2.1.1
+
+
+### Update history
+
+#### 03/06/2020
+
+Fix the error of the explanation of Gaussian and Bi-square kernel.
+
+**Gaussian kernel**: 
+
+$y=e^{-{\frac{x^2}{2b^2}}}$
+
+**Bi-Square kernel**:
+$y=\begin{cases}
+0 & \text{ } x\leq -1 \\ 
+(1-{\frac{x}{b}}^2)^2 & \text{ } -1<x\leq1 \\ 
+0 & \text{ } x > 1 
+\end{cases}$
+
