@@ -34,12 +34,8 @@ Fix the error of the explanation of Gaussian and Bi-square kernel.
 
 **Gaussian kernel**: 
 
-$y=e^{-{\frac{x^2}{2b^2}}}$
+![equation](https://latex.codecogs.com/svg.latex?y=e^{-{\frac{x^2}{2b^2}}})
 
 **Bi-Square kernel**:
-$y=\begin{cases}
-0 & \text{ } x\leq -1 \\ 
-(1-{\frac{x}{b}}^2)^2 & \text{ } -1<x\leq1 \\ 
-0 & \text{ } x > 1 
-\end{cases}$
 
+![equation](https://latex.codecogs.com/svg.latex?y=\begin{cases}%200%20&%20\text{%20}%20x\leq%20-1%20\\\\%20(1-{\frac{x}{b}}^2)^2%20&%20\text{%20}%20-1%3Cx\leq1%20\\\\%200%20&%20\text{%20}%20x%20%3E%201%20\end{cases})
